@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  topics-skills-api:
+    build: .
+    container_name: topics-skills-api
+    ports:
+      - "5000:5000"
